@@ -302,9 +302,9 @@
   .navbar {
       background: var(--forest-yellow);
       width: 100%;
-      height: 60px;
+      height: 60vh;
       display: flex;
-      font-size: 14px;
+      font-size: 11px;
       justify-content: space-between;
 
   }
@@ -324,8 +324,9 @@
   .navbar ul {
     display: flex;
     list-style: none;
-    padding-top: 12px;
+    padding-top: 15px;
     padding-right: -15px;
+    
 }
 
   .navbar h2 {
@@ -353,7 +354,7 @@
  }
  .foto {
    margin-top: 70px;
-   margin-left: 14px ;
+   margin-left: 19px ;
    margin-bottom: 100px;
  }
 
@@ -482,6 +483,9 @@ flex-direction: column-reverse;
   background-color: var(--forest-yellow);
   padding-top: 5px;
   
+}
+.mapa{
+  width: auto;
 }
 
 .insta {
