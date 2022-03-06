@@ -33,7 +33,7 @@
 
   /*----------------- media query ---------------------*/
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1800px){
   
     main{
         display: flex;
@@ -63,7 +63,7 @@
     }
     
     .navbar img {
-      width: 240px;
+      width: 110px;
       margin-top: 4px;
     }
 
@@ -286,7 +286,7 @@
 
 
 
-  @media only screen and (max-width:992px){
+  @media only screen and (max-width:700px) {
 
     main{
       display: flex;
@@ -304,7 +304,7 @@
       width: 100%;
       height: 60px;
       display: flex;
-      font-size: 25px;
+      font-size: 14px;
       justify-content: space-between;
 
   }
@@ -316,15 +316,16 @@
   }
   
   .navbar img {
-    width: 240px;
+    width: 85px;
     margin-top: 4px;
+
   }
 
   .navbar ul {
     display: flex;
     list-style: none;
     padding-top: 12px;
-    padding-right: 25px;
+    padding-right: -15px;
 }
 
   .navbar h2 {
@@ -339,11 +340,12 @@
 .presen {
   text-align: center;
   display: flex;
+  flex-direction: column;
   margin-bottom: 5px;
   
 }
   .presen img {
-   width: 300px;
+   width: 280px;
    position: relative;
    border-radius: 10px;
    border: 1px solid black;
@@ -351,7 +353,7 @@
  }
  .foto {
    margin-top: 70px;
-   margin-left: 100px ;
+   margin-left: 14px ;
    margin-bottom: 100px;
  }
 
@@ -361,18 +363,18 @@
  }
 
  .slogan {
-   margin-top: 270px;
-   margin-left: 100px;
-   width: 35%;
-
+   margin-top: 60px;
+   margin-left: 23px;
+   margin-right: 23px;
  }
  .slogan p {
    font-size:14px;
+   
  }
 
 
  .presen2 img {
-  width: 330px;
+  width: 280px;
   position: relative;
   border-radius: 10px;
   border: 1px solid black;
@@ -381,12 +383,13 @@
 .foto2 {
   margin-top: 250px;
   margin-bottom: 100px;
-  margin-left: 70px ;
+  margin-left: 2px ;
 }
 
 .presen2 {
   text-align: center;
   display: flex;
+  flex-direction: column-reverse;
   margin-bottom: 40px;
 }
 .presen2 h2 {
@@ -395,13 +398,52 @@
 
 .slogan2 {
   margin-top: 50px;
-  margin-left: 100px;
-  width: 35%;
+  margin-left: 23px;
+  margin-right: 23px;
+  
 }
 
 .slogan2{
   font-size: 14px;
 }
+
+.presen3 {
+  display: flex;
+  flex-direction: column;
+  
+  }
+  .presen3 img {
+  width: 280px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid black;
+  
+  }
+  .servicios{
+    text-align: center;
+    margin-left: 23px;
+    margin-right: 23px; 
+  }
+  .servicios ul{
+  list-style: upper-latin;
+  margin-left: 45px;
+  
+  
+  }
+  .servicios li{
+  font-size: 14px;
+  align-content: center;
+  }
+  .servicios h2 {
+  margin-top: 30px;
+  padding-bottom:15px;
+  }
+  .foto3{
+    margin-top: 100px;
+   
+    text-align: center;
+    
+  }
 
 .button {
   background-color:var(--forest-yellow);
@@ -424,49 +466,12 @@
   background-color:var(--battle-ship);
 }
 
-.presen3 {
-display: flex;
 
-text-align: center;
-}
-.presen3 img {
-width: 300px;
-position: relative;
-border-radius: 10px;
-border: 1px solid black;
 
-}
-.servicios{
-  
-  margin-left: 100px;
-  width: 40%;
-}
-.servicios ul{
-list-style: upper-latin;
-margin-left: 45px;
-}
-.servicios li{
-font-size: 14px;
 
-}
-.servicios h2 {
-margin-top: 30px;
-padding-bottom:15px;
-}
-.foto3{
-  margin-top: 100px;
-  margin-left: 100px ;
-  margin-right: 40px;
-}
-
-.mapa {
-  margin-top: 300px;
-  
-  
-}
 .piepag{
   display: flex;
-
+flex-direction: column-reverse;
 }
 
 .contacto{
