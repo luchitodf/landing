@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300;400;700&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+:root {
+    --blue-sapphire:hsla(195, 67%, 30%, 1);
+    --battle-ship:hsla(26, 100%, 95%, 1);
+    --forest-yellow:hsla(188, 10%, 90%,1 );
+    --forest-blue: hsla(190, 77%, 88%,1);
+}
+
+*,
+  *::after,
+  *::before {
+      margin:0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  html {
+     scroll-behavior: smooth;
+  }
+  
+  body {
+      background: var(--forest-blue);
+      height:100vh;
+      width:100vw;
+      display: flex;
+      flex-direction: row;
+      font-family:"PT Sans Narrow" , sans-serif;
+  }
+ 
+  
+
+
+
+  /*----------------- media query ---------------------*/
+
+@media only screen and (min-width: 1200px){
+  
+    main{
+        display: flex;
+        height:100vh;
+        width:100%;
+        flex-direction: column;
+    }
+    .navbar a {
+        text-decoration: none;
+        color: black;
+      }
+      
+    .navbar {
+        background: var(--forest-yellow);
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        font-size: 25px;
+        justify-content: space-between;
+
+    }
+    li a:hover{
+      background-color:var(--forest-blue);
+      transition: .5s;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .navbar img {
+      width: 240px;
+      margin-top: 4px;
+    }
+
+    .navbar ul {
+      display: flex;
+      list-style: none;
+      padding-top: 12px;
+      padding-right: 25px;
+  }
+
+    .navbar h2 {
+    margin-left: 10px;
+  }
+
+    .navbar li {
+      padding-right: 30px;
+      
+      
+  }
+    .presen img {
+     width: 500px;
+     position: relative;
+     border-radius: 10px;
+     border: 1px solid black;
+    
+   }
+   .foto {
+     margin-top: 70px;
+     margin-left: 300px ;
+     margin-bottom: 100px;
+     margin-right: 55px;
+   }
+  
+   .presen {
+     text-align: center;
+     display: flex;
+     margin-bottom: 5px;
+     width: 100vw;
+   }
+   .presen h2 {
+     padding-bottom: 40px;
+   }
+
+   .slogan {
+     margin-top: 200px;
+     margin-left: 100px;
+     width: 40%;
+
+   }
+   .slogan p {
+     font-size:19px;
+   }
+
+
+   .presen2 img {
+    width: 500px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+  }
+  .foto2 {
+    margin-top: 250px;
+    margin-bottom: 100px;
+    margin-left: 120px ;
+  }
+ 
+  .presen2 {
+    text-align: center;
+    display: flex;
+    margin-bottom: 155px;
+  }
+  .presen2 h2 {
+    padding-bottom: 40px;
+  }
+
+  .slogan2 {
+    margin-top: 340px;
+    margin-left: 200px;
+    width: 40%;
+  }
+
+  .slogan2{
+    font-size: 19px;
+  }
+
+  .button {
+    background-color:var(--forest-yellow);
+    border:1px solid #241d13;
+    display:inline-block;
+    cursor:pointer;
+    color:#000000;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:9px 23px;
+    text-decoration:none;
+    margin-top: 30px;
+    border-radius: 6px;
+
+}
+
+.button:hover {
+    
+	  background-color:var(--battle-ship);
+}
+
+.presen3 {
+  display: flex;
+ 
+  
+}
+.presen3 img {
+  width: 500px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid black;
+ 
+}
+.servicios{
+    margin-top: 250px;
+    margin-left: 310px;
+    width: 29%;
+}
+.servicios ul{
+  list-style: upper-latin;
+  margin-left: 45px;
+}
+.servicios li{
+  font-size: 19px;
+  
+}
+.servicios h2 {
+  margin-top: 30px;
+  padding-bottom:15px;
+}
+ .foto3{
+    margin-top: 70px;
+    margin-left: 300px ;
+   
+    margin-right: 55px;
+ }
+ 
+  .mapa {
+    margin-top: 300px;
+    
+    
+  }
+  .piepag{
+    display: flex;
+   
+  }
+
+  .contacto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+
+    width: 100%;
+    background-color: var(--forest-yellow);
+    padding-top: 5px;
+    
+  }
+
+  .insta {
+    margin-top: 60px;
+    padding-left: 40px;
+    display: flex;
+    
+  }
+  
+  .whatsapp {
+    margin-top: 60px;
+    display: flex;
+    padding-left: 40px;
+  }
+  
+  .direc {
+    margin-top: 60px;
+    padding-left: 40px;
+  }
+
+  .insta img {
+    width: 60px;
+    display: flex;
+   
+  }
+  .whatsapp img{
+    width: 60px;
+  }
+  
+  .contact {
+    text-align: center;
+    align-items: center;
+  }
+  .insta a {
+    text-decoration: none;
+    color: black;
+  }
+  .whatsapp a {
+    text-decoration: none;
+    color: black;
+  }
+  .contacto a{
+    text-decoration: none;
+    color: black;
+  }
+  .insta h2{
+    margin-left: 25px;
+    margin-top: 9px;
+     
+  }
+  
+  .whatsapp h2{
+    margin-left: 25px;
+    margin-top: 9px;
+  }
+}
+
+
+
+
+  @media only screen and (max-width:992px){
+
+    main{
+      display: flex;
+      height:100vh;
+      width:100%;
+      flex-direction: column;
+  }
+  .navbar a {
+      text-decoration: none;
+      color: black;
+    }
+    
+  .navbar {
+      background: var(--forest-yellow);
+      width: 100%;
+      height: 60px;
+      display: flex;
+      font-size: 25px;
+      justify-content: space-between;
+
+  }
+  li a:hover{
+    background-color:var(--forest-blue);
+    transition: .5s;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar img {
+    width: 240px;
+    margin-top: 4px;
+  }
+
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    padding-top: 12px;
+    padding-right: 25px;
+}
+
+  .navbar h2 {
+  margin-left: 10px;
+}
+
+  .navbar li {
+    padding-right: 30px;
+    
+    
+}
+.presen {
+  text-align: center;
+  display: flex;
+  margin-bottom: 5px;
+  
+}
+  .presen img {
+   width: 300px;
+   position: relative;
+   border-radius: 10px;
+   border: 1px solid black;
+   margin-right: 35px;
+ }
+ .foto {
+   margin-top: 70px;
+   margin-left: 100px ;
+   margin-bottom: 100px;
+ }
+
+ 
+ .presen h2 {
+   padding-bottom: 40px;
+ }
+
+ .slogan {
+   margin-top: 270px;
+   margin-left: 100px;
+   width: 35%;
+
+ }
+ .slogan p {
+   font-size:14px;
+ }
+
+
+ .presen2 img {
+  width: 330px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid black;
+  
+}
+.foto2 {
+  margin-top: 250px;
+  margin-bottom: 100px;
+  margin-left: 70px ;
+}
+
+.presen2 {
+  text-align: center;
+  display: flex;
+  margin-bottom: 40px;
+}
+.presen2 h2 {
+  padding-bottom: 40px;
+}
+
+.slogan2 {
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 35%;
+}
+
+.slogan2{
+  font-size: 14px;
+}
+
+.button {
+  background-color:var(--forest-yellow);
+  border:1px solid black;
+  display:inline-block;
+  cursor:pointer;
+  color:#000000;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 18px;
+  text-decoration:none;
+  margin-top: 30px;
+  border-radius: 6px;
+
+}
+
+.button:hover {
+  
+  background-color:var(--battle-ship);
+}
+
+.presen3 {
+display: flex;
+
+text-align: center;
+}
+.presen3 img {
+width: 300px;
+position: relative;
+border-radius: 10px;
+border: 1px solid black;
+
+}
+.servicios{
+  
+  margin-left: 100px;
+  width: 40%;
+}
+.servicios ul{
+list-style: upper-latin;
+margin-left: 45px;
+}
+.servicios li{
+font-size: 14px;
+
+}
+.servicios h2 {
+margin-top: 30px;
+padding-bottom:15px;
+}
+.foto3{
+  margin-top: 100px;
+  margin-left: 100px ;
+  margin-right: 40px;
+}
+
+.mapa {
+  margin-top: 300px;
+  
+  
+}
+.piepag{
+  display: flex;
+
+}
+
+.contacto{
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+  width: 100%;
+  background-color: var(--forest-yellow);
+  padding-top: 5px;
+  
+}
+
+.insta {
+  margin-top: 60px;
+  padding-left: 40px;
+  display: flex;
+  
+}
+
+.whatsapp {
+  margin-top: 60px;
+  display: flex;
+  padding-left: 40px;
+}
+
+.direc {
+  margin-top: 60px;
+  padding-left: 40px;
+}
+
+.insta img {
+  width: 60px;
+  display: flex;
+ 
+}
+.whatsapp img{
+  width: 60px;
+}
+
+.contact {
+  text-align: center;
+  align-items: center;
+}
+.insta a {
+  text-decoration: none;
+  color: black;
+}
+.whatsapp a {
+  text-decoration: none;
+  color: black;
+}
+.contacto a{
+  text-decoration: none;
+  color: black;
+}
+.insta h2{
+  margin-left: 25px;
+  margin-top: 9px;
+
+}
+
+.whatsapp h2{
+  margin-left: 25px;
+  margin-top: 9px;
+}
+}
