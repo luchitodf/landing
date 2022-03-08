@@ -33,7 +33,7 @@
 
   /*----------------- media query ---------------------*/
 
-@media only screen and (min-width: 1400px){
+@media only screen and (min-width: 1401px){
   
     main{
         display: flex;
@@ -84,17 +84,17 @@
       
   }
     .presen img {
-     width: 500px;
+     width: 400px;
      position: relative;
      border-radius: 10px;
      border: 1px solid black;
     
    }
    .foto {
-     margin-top: 70px;
-     margin-left: 300px ;
+     margin-top: 150px;
+     margin-left: 330px ;
      margin-bottom: 100px;
-     margin-right: 55px;
+     margin-right: px;
    }
   
    .presen {
@@ -114,12 +114,12 @@
 
    }
    .slogan p {
-     font-size:19px;
+     font-size:18px;
    }
 
 
    .presen2 img {
-    width: 500px;
+    width: 400px;
     position: relative;
     border-radius: 10px;
     border: 1px solid black;
@@ -141,59 +141,39 @@
   }
 
   .slogan2 {
-    margin-top: 340px;
-    margin-left: 200px;
-    width: 40%;
+    margin-top: 270px;
+    margin-left: 510px;
+    width:30%;
   }
 
   .slogan2{
-    font-size: 19px;
+    font-size: 18px;
   }
 
-  .button {
-    background-color:var(--forest-yellow);
-    border:1px solid #241d13;
-    display:inline-block;
-    cursor:pointer;
-    color:#000000;
-    font-family:Arial;
-    font-size:20px;
-    font-weight:bold;
-    padding:9px 23px;
-    text-decoration:none;
-    margin-top: 30px;
-    border-radius: 6px;
-
-}
-
-.button:hover {
-    
-	  background-color:var(--battle-ship);
-}
-
+  
 .presen3 {
   display: flex;
  
   
 }
 .presen3 img {
-  width: 500px;
+  width: 400px;
   position: relative;
   border-radius: 10px;
   border: 1px solid black;
  
 }
 .servicios{
-    margin-top: 250px;
-    margin-left: 310px;
+    margin-top: 200px;
+    margin-left: 210px;
     width: 29%;
 }
 .servicios ul{
   list-style: none;
-  margin-left: 45px;
+  margin-left: 80px;
 }
 .servicios li{
-  font-size: 19px;
+  font-size: 18px;
   
 }
 .servicios h2 {
@@ -206,7 +186,27 @@
    
     margin-right: 55px;
  }
- 
+ .button {
+  background-color:var(--forest-yellow);
+  border:1px solid #241d13;
+  display:inline-block;
+  cursor:pointer;
+  color:#000000;
+  font-family:Arial;
+  font-size:20px;
+  font-weight:bold;
+  padding:9px 23px;
+  text-decoration:none;
+  margin-top: 30px;
+  border-radius: 6px;
+
+}
+.button:hover {
+    
+	  background-color:var(--battle-ship);
+}
+
+
   .mapa {
     margin-top: 300px;
   }
@@ -542,9 +542,254 @@ flex-direction: column-reverse;
 }
 }
 
+@media only screen and (min-width: 701px) and (max-width: 1000px){
+  
+  main{
+      display: flex;
+      height:100vh;
+      width:100vw;
+      flex-direction: column;
+  }
+  .navbar a {
+      text-decoration: none;
+      color: black;
+    }
+    
+  .navbar {
+      background: var(--forest-yellow);
+      width: 100vw;
+      height: 60px;
+      display: flex;
+      font-size: 23px;
+      justify-content: space-between;
+
+  }
+  li a:hover{
+    background-color:var(--forest-blue);
+    transition: .5s;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar img {
+    width: 110px;
+    margin-top: 4px;
+  }
+
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    padding-top: 12px;
+    padding-right: 25px;
+}
+
+  .navbar h2 {
+  margin-left: 10px;
+}
+
+  .navbar li {
+    padding-right: 30px;  
+}
+  .presen img {
+   width: 230px;
+   position: relative;
+   border-radius: 10px;
+   border: 1px solid black;
+  
+ }
+ .foto {
+   margin-top: 110px;
+   margin-left: 50px ;
+   margin-bottom: 100px;
+   margin-right: 55px;
+ }
+
+ .presen {
+   text-align: center;
+   display: flex;
+   margin-bottom: 5px;
+   width: 100vw;
+ }
+ .presen h2 {
+   padding-bottom: 40px;
+ }
+
+ .slogan {
+   margin-top: 70px;
+   margin-left: 70px;
+   width: 55%;
+
+ }
+ .slogan p {
+   font-size:14px;
+ }
 
 
-@media only screen and (min-width: 700px) and (max-width: 1400px){
+ .presen2 img {
+  width: 230px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid black;
+  
+}
+.foto2 {
+  margin-top: 250px;
+  margin-bottom: 100px;
+  margin-left: 100px ;
+}
+
+.presen2 {
+  text-align: center;
+  display: flex;
+  margin-bottom: 155px;
+}
+.presen2 h2 {
+  padding-bottom: 40px;
+}
+
+.slogan2 {
+  margin-top: 120px;
+  margin-left: 50px;
+  width: 40%;
+}
+
+.slogan2{
+  font-size: 16px;
+}
+.presen3 {
+  display: flex;
+  
+  
+  }
+  .presen3 img {
+  width: 230px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid black;
+  
+  }
+  .servicios{
+    margin-top:30px;
+    margin-left: 100px;
+    width: 55%;
+  }
+  .servicios ul{
+  list-style: none;
+  
+  }
+  .servicios li{
+  font-size: 14px;
+  
+  }
+  .servicios h2 {
+  margin-top: 30px;
+  padding-bottom:15px;
+  }
+  .foto3{
+    margin-top: 20px;
+    margin-right: 55px;
+  }
+  
+.button {
+  background-color:var(--forest-yellow);
+  border:1px solid #241d13;
+  display:inline-block;
+  cursor:pointer;
+  color:#000000;
+  font-family:Arial;
+  font-size:20px;
+  font-weight:bold;
+  padding:9px 23px;
+  text-decoration:none;
+  margin-top: 30px;
+  border-radius: 6px;
+
+}
+
+.button:hover {
+  
+  background-color:var(--battle-ship);
+}
+
+
+.mapa {
+  margin-top: 300px;
+  width: 60%;
+  
+}
+.piepag{
+  display: flex;
+ 
+}
+
+.contacto{
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+
+  width: 40%;
+  background-color: var(--forest-yellow);
+  padding-top: 5px;
+  
+}
+
+.insta {
+  margin-top: 60px;
+  padding-left: 40px;
+  display: flex;
+  
+}
+
+.whatsapp {
+  margin-top: 60px;
+  display: flex;
+  padding-left: 40px;
+}
+
+.direc {
+  margin-top: 60px;
+  padding-left: 40px;
+}
+
+.insta img {
+  width: 60px;
+  display: flex;
+ 
+}
+.whatsapp img{
+  width: 60px;
+}
+
+.contact {
+  text-align: center;
+  align-items: center;
+}
+.insta a {
+  text-decoration: none;
+  color: black;
+}
+.whatsapp a {
+  text-decoration: none;
+  color: black;
+}
+.contacto a{
+  text-decoration: none;
+  color: black;
+}
+.insta h2{
+  margin-left: 25px;
+  margin-top: 9px;
+   
+}
+
+.whatsapp h2{
+  margin-left: 25px;
+  margin-top: 9px;
+}
+}
+
+
+@media only screen and (min-width: 1001px) and (max-width: 1400px){
   
   main{
       display: flex;
